@@ -4,7 +4,7 @@ parser.add_argument('-j', '--workers', default=6, type=int, metavar='N', help='n
 parser.add_argument('-b', '--batch_size', default=16, type=int, nargs="+", metavar='N', help='mini-batch size')
 parser.add_argument('--num_frames', type=int, default=16)
 parser.add_argument('--run', type=str, default='debug')
-parser.add_argument('--source', type=str, default='K100H51')
+parser.add_argument('--source', type=str, default='K100')
 parser.add_argument('--target', type=str, default='H51')
 parser.add_argument('--load', type=str, default=None)
 parser.add_argument('--start_ep', type=int, default='0')

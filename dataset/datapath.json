@@ -3,13 +3,9 @@
         "path": "dataset/K100_train.txt",
         "num_classes": 61
     },
-    "K200": {
-        "path": "dataset/"
-    },
     "U101": {
         "path": "dataset/ucf101_train.txt",
         "pathTest": "dataset/ucf101_test.txt",
-        "pathFull": "dataset/ucf101_train.txt",
         "num_classes": 101
     },
     "SSm": {
@@ -19,47 +15,21 @@
     },
     "H51": {
         "path": "dataset/H51_train.txt",
-        "pathFull": "dataset/hmdb_trainCUT.txt",
         "pathTest": "dataset/H51_test.txt",
         "num_classes": 51
     },
     "RA": {
         "path": "dataset/RA_train2.txt",
-        "pathFull": "dataset/RA_train2.txt",
         "pathTest": "dataset/RA_test2.txt",
         "num_classes": 64
     },
     "D48": {
         "path": "dataset/D48_train.txt",
-        "pathFull": "dataset/D48_train.txt",
         "pathTest": "dataset/D48_test.txt",
         "num_classes": 48
     },
-    "K100U101": {
-        "path": "dataset/K100U101comb.txt"
-    },
-    "K100D48": {
-        "path": "dataset/K100D48comb.txt"
-    },
-    "K100SSm": {
-        "path": "dataset/K100SSminicomb.txt"
-    },
-    "K100H51": {
-        "path": "dataset/K100H51comb.txt"
-    },
-    "K100RA": {
-        "path": "dataset/K100RAcomb.txt"
-    },
-    "U101RA": {
-        "path": "dataset/U101RAcomb.txt"
-    },
-    "U101D48": {
-        "path": "dataset/U101D48comb.txt"
-    },
-    "U101H51": {
-        "path": "dataset/U101H51comb.txt"
-    },
     "K400": {
-        "path": "dataset/kin400_test3.txt"
+        "path": "dataset/kin400_train.txt"
+        "num_classes": 364
     }
 }

@@ -205,7 +205,7 @@ if torch.cuda.device_count() > 1:
 model.to(device)
 
 accs = []
-for i in range(20):                                
+for i in range(100):                                
     accs.append(FewShotEp(model=model, dataset=target_set, num_classes=datapath[args.target]['num_classes']))
     
 print(Average(accs))
